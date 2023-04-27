@@ -13,3 +13,24 @@
     margin-top: 15px;
     margin-bottom: 10px; */
 }
+.contenedor_img{
+    display: inline-block;
+}
+.contenedor_icon{
+    background-color: #ECECEC;
+    width: 60px;
+    height: 60px;
+    float: right;
+    position:relative;
+    z-index: 5;
+    border-radius: 50%;
+
+}
+.icon_user{
+    padding: 2px 2px 2px 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
