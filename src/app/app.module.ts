@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './Components/nav/nav.component';
+import { PorfolioComponent } from './Components/porfolio/porfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    PorfolioComponent
   ],
   imports: [
     BrowserModule
