@@ -16,13 +16,19 @@
 .contenedor_img{
     display: inline-block;
 }
-.contenedor_icon{
-    background-color: #ECECEC;
-    width: 60px;
-    height: 60px;
+.contenedor_iconos{
     float: right;
     position:relative;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
     z-index: 5;
+}
+.contenedor_Logo{
+    background-color: #ECECEC;
+    width: 60px;
+    float: right;
+    height: 60px;
     margin:9px 9px 0px 9px;
     border-radius: 50%;
 
@@ -34,4 +40,23 @@
     display: flex;
     text-align: center;
     justify-content: center;
+}
+.Icon_style_GitHub{
+    width: 65px;
+    height: 65px;
+    margin: 12px 23px 0px 23px ;
+    float: right;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.Icon_style_Linkedin{
+    width:65px;
+    height: 65px;
+    margin: 12px 23px 0px 23px ;
+    float: right;
+    display: flex;
+    justify-content: center;
+
 }
