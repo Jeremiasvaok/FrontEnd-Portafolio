@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 .nav_style{
  background-image: url("../../../assets/Banner.svg");
  background-size:cover;
@@ -8,20 +9,31 @@
  position: relative;
 }
 .contenedor_presentacion{
-  width: 500px;
-  height: 300px;
-  display: flex;
+  display: inline-block;
   position: absolute;
   top: 40%;
   left: 16%;
    margin: -25px 0 0 -25px;
-background-color: #5178bb;
-   
 }
+
+.contenedor_presentacion h1{
+    font-size: 50px;
+    font-weight:400;
+    color: #ffffff;
+    font-family: 'Secular One', sans-serif;
+
+}
+
+.contenedor_presentacion p{
+    font-size: medium;
+    color: #ffffff;
+    font-family: 'Secular One', sans-serif;
+}
+
 .Contenedor_Cabezera{
    width: 100%;
    height: 80px;
-   background-color: #00358E;
+   background-color: #FFFFFF;
 }
 
 .img-logo{
