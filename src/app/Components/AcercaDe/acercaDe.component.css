@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
- .contenedor_acercaDe{
-    display: grid;
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+ 
+
+.contenedor_acercaDe{
   background-color: #686868;
 } 
 .foto_estilo{
@@ -27,6 +28,7 @@
 }
 
 .contenedor_nombre{
+    position: relative;
     display: grid;
     justify-content: center;
 }
@@ -35,7 +37,8 @@
    margin-bottom: 10px;
    font-size: 20px;
    font-weight: 700;
+   top: 120px;
    color: #ffffff;
    font-family: 'Libre Baskerville', serif;
 
-}
+} */
