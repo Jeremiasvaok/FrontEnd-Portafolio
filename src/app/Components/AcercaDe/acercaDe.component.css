@@ -12,7 +12,7 @@
 
 .foto_estilo{
     float: left;
-     top: -40px; 
+     top: -50px; 
     position: relative; 
 }
 .foto_estilo img{
@@ -69,20 +69,19 @@
 }*/
 
 .contenedor_nombres{
-    background-color: red;
-}  
+    display: grid;
+   place-items: center;
+    
+ 
+}
 
-.contenedor_nombres p{
-   margin-bottom: 10px;
-   font-size: 15px;
-   font-weight: 700;
-   top: 120px;
-   color: #ffffff;
-    position: relative;
-    z-index: 3;
-    text-align: center;
-    justify-content: center; 
-   font-family: 'Libre Baskerville', serif;
+.contenedor_nombress p{
+   /* font-size: 15px;
+   font-weight: 700; */
+
+   text-align: center;
+ color: #ffffff;
+   font-family: 'Libre Baskerville', serif; 
 
 } 
 
