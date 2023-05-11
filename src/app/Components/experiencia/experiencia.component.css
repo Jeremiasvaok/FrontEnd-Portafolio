@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+
+.experience{
+ text-align: center;
+}
+
+div > h3{
+    margin-left: 20px;
+    font-family: 'Poltawski Nowy', serif;
+}
