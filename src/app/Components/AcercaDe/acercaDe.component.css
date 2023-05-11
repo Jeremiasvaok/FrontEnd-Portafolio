@@ -1,18 +1,25 @@
  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
  
+
 .container{
-    background-color: #686868;
+    /* background-color: #686868; */
     margin:0px;
     padding: 0;
 }
-
+.title{
+    display: grid;
+    place-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
 .sinpadding {
     margin: 0;
 }
 
 .foto_estilo{
     float: left;
-     top: -70px; 
+     top: -170px; 
     position: relative; 
 }
 .foto_estilo img{
@@ -80,7 +87,7 @@
    font-weight: 700; */
 
    text-align: center;
- color: #ffffff;
+ color: #000000;
    font-family: 'Libre Baskerville', serif; 
 
 } 
@@ -88,7 +95,7 @@
 .contenedor_acerca h3{
     text-align: center;
     justify-content: center;
-    color: #ffffff;
+    color: #000000;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -97,6 +104,6 @@
     font-size: 15px;
     font-weight: 700;
     top: 120px;
-    color: #ffffff;
+    color: #0a0a0a;
     font-family: 'Libre Baskerville', serif;
 }
