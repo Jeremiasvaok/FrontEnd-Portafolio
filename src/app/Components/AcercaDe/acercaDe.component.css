@@ -1,9 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
- 
+
 
 .container{
-    /* background-color: #686868; */
-    margin:0px;
+    margin-left:13px;
     padding: 0;
 }
 .title{
@@ -13,67 +12,29 @@
     width: 100%;
     background-color: aqua;
 }
-.sinpadding {
-    margin: 0;
-}
+
 
 .foto_estilo{
     float: left;
-     top: -170px; 
-    position: relative; 
+     margin-top: -70px;
+    z-index: 12;
 }
+
 .foto_estilo img{
     margin: 0 auto;
     width: 250px;
     height: 250px;
     border-radius: 50%;
     border: #a8a8a8 5px solid;
-    display:flex;
+    display:inline-block;
     justify-content: center;
-}
-/* .row{
-    padding: 12px;
-  background-color: #686868;
-  text-align: center;
-}  */
+} 
 
-/* #foto_estilo{
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    left: 3%;
-    top: 520px;
-    border-radius: 50%;
-    border: #a8a8a8 5px solid;
-} */
+.styles-my{
+    width: 500px;
 
-/* @media (min-width:576px){
-    #foto_estilo{
-        position: absolute;
-        width: 250px;
-        height: 250px;
-        left: 1%;
-        top: 600px;
-        border-radius: 50%;
-        display:flex;
-        border: #a8a8a8 5px solid;
-    }
 }
-@media (max-width:575px){
-    #foto_estilo{
-        /* position: absolute; */
-       /* width: 250px;
-        height: 250px;
-        top: 600px;
-        border-radius: 50%;
-        display:flex;
-        margin: 0 auto;
-        border: #a8a8a8 5px solid;
-    } 
-  #contenedor_nombres{
-        margin-top: 12px;
-    } 
-}*/
+
 
 .contenedor_nombres{
     display: grid;
@@ -83,27 +44,24 @@
 }
 
 .contenedor_nombress p{
-   /* font-size: 15px;
-   font-weight: 700; */
-
    text-align: center;
- color: #000000;
+   color: #000000;
    font-family: 'Libre Baskerville', serif; 
-
+   margin-top: 10px;
 } 
 
-.contenedor_acerca h3{
+.styles-my h3{
     text-align: center;
     justify-content: center;
     color: #000000;
     font-family: 'Libre Baskerville', serif;
 }
 
-.contenedor_acerca p{
-    margin-bottom: 10px;
+.styles-my p{
     font-size: 15px;
+    margin-left: 40px;
     font-weight: 700;
     top: 120px;
     color: #0a0a0a;
     font-family: 'Libre Baskerville', serif;
-}
+} 
