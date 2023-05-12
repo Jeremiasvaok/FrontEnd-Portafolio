@@ -10,6 +10,9 @@ import { EducationComponent } from './Components/education/education.component';
 import { hardSoftComponent } from './Components/hardSoft/hardSoft.component';
 import { ProjectsComponent } from './Components/projects/projects.component';
 
+import { NgCircleProgressModule } from 'ng-circle-progress';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,9 @@ import { ProjectsComponent } from './Components/projects/projects.component';
     ProjectsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
