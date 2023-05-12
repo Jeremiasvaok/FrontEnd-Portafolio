@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-.container-experience{
-    background-color: white;
-}
-.experience{
- background-color: #a8a8a8;
- /* margin: 0 auto; */
-margin: 50px 0px 50px 0px;
- display: flex;
- justify-content: center;
- text-align: center;
- border-radius: 25px;
-}
+ .experience{
+margin: 70px 0px 70px 12px;
+} 
+
+
 .experience h2{
     font-family: 'Anton', sans-serif;
-    display: grid;
-    place-items: center;
+    display: inline-block;
+    position: relative;
+}
+
+h2::before{
+ content: '';
+ position: absolute;
+ width: 100px;
+ height:5px;
+ border-radius: 15px;
+ background-color: #7fff00;
+ top: 1.2em;
 }
 
 div > h3{

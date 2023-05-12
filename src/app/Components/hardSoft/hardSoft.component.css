@@ -1,9 +1,20 @@
-.container-title h2{
-    background-color: #a8a8a8;
-    /* margin: 0 auto; */
-   margin: 50px 0px 50px 0px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    border-radius: 25px;
-   }
+.hard-title{
+    margin: 50px 0px 50px 12px;
+} 
+    
+    
+.hard-title h2{
+    font-family: 'Anton', sans-serif;
+    display: inline-block;
+    position: relative;
+}
+
+h2::before{
+     content: '';
+     position: absolute;
+     width: 100px;
+     height:5px;
+     border-radius: 15px;
+     background-color: chartreuse;
+     top: 1.2em;
+}
