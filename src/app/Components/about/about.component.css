@@ -34,7 +34,6 @@
 .contenedor_nombres{
     display: grid;
    place-items: center;
-    
  
 }
 
@@ -56,10 +55,10 @@
 .styles-my{
     height: max-content;
     width: 400px;
+    
 }
 .styles-my p{
     font-size: 15px;
-
     font-weight: 700;
     top: 120px;
     color: #0a0a0a;
