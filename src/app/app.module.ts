@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http'
-
 import { AppComponent } from './app.component';
 import { NavComponent } from './Components/nav/nav.component';
 import { PorfolioComponent } from './Components/porfolio/porfolio.component';
@@ -12,6 +11,8 @@ import { hardSoftComponent } from './Components/hardSoft/hardSoft.component';
 import { ProjectsComponent } from './Components/projects/projects.component';
 
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { LoginComponent } from './Components/login/login.component';
+import { AppRoutingModule } from './app.routing.module';
 
 
 @NgModule({
@@ -23,12 +24,14 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     AboutComponent,
     ExperienceComponent,
     hardSoftComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    NgCircleProgressModule.forRoot({}),
     HttpClientModule,
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({}),
   ],
   providers: [],
   bootstrap: [AppComponent]
