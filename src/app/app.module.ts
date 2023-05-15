@@ -9,7 +9,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { EducationComponent } from './Components/education/education.component';
 import { hardSoftComponent } from './Components/hardSoft/hardSoft.component';
 import { ProjectsComponent } from './Components/projects/projects.component';
-
+import { FormsModule } from '@angular/forms';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { LoginComponent } from './Components/login/login.component';
 import { AppRoutingModule } from './app.routing.module';
@@ -31,6 +31,7 @@ import { AppRoutingModule } from './app.routing.module';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    FormsModule,
     NgCircleProgressModule.forRoot({}),
   ],
   providers: [],

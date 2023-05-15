@@ -15,7 +15,7 @@ export class AboutComponent implements OnInit{
 
  }
  ngOnInit(): void {
-     this.userService.getUser().subscribe(data => {
+     this.userService.getPersona().subscribe(data => {
       this.user = data;
      })
  }
