@@ -13,7 +13,8 @@ import { FormsModule } from '@angular/forms';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { LoginComponent } from './Components/login/login.component';
 import { AppRoutingModule } from './app.routing.module';
-
+import { EditExperienceComponent } from './Components/experience/edit-experience.component'
+import { NewExperienceComponent } from './Components/experience/new-experience.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,9 @@ import { AppRoutingModule } from './app.routing.module';
     ExperienceComponent,
     hardSoftComponent,
     ProjectsComponent,
-    LoginComponent
+    LoginComponent,
+    EditExperienceComponent,
+    NewExperienceComponent
   ],
   imports: [
     BrowserModule,
