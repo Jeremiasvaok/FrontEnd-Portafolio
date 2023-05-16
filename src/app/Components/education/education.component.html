@@ -1,12 +1,26 @@
-<div>
+<div class="row">
     <div class='education'>
         <h2>Educacion</h2>
     </div>
-    <div class="card w-75">
-        <div class="card-body card-exprience">
-          <h5 class="card-title ">#ArgentinaPrograma</h5>
-          <p class="card-text">12/3/23 - 12/5/23</p>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam veniam, temporibus error dolores velit omnis provident quisquam natus? Aut, quidem cupiditate. Minima a illum aspernatur recusandae labore? Sunt, voluptatem velit!</p>
-        </div>
-      </div>
+    <div class="col lg 1"></div>
+    <div class="col-lg-11">
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Educacion of educacion">
+                    <td>
+                        <h2>{{Educacion.nombreE}}</h2>
+                    </td>
+                    <td>{{Educacion.descripcionE}}</td>
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-light" routerLink="/editedu/{{Educacion.id}}">
+                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                    </td>
+                    <td *ngIf="isLogged">
+                        <button class="btn btn-danger" (click)="delete(Educacion.id)">
+                            <i class="bi bi-trash-fill"></i> BORRAR</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>

@@ -15,6 +15,8 @@ import { LoginComponent } from './Components/login/login.component';
 import { AppRoutingModule } from './app.routing.module';
 import { EditExperienceComponent } from './Components/experience/edit-experience.component'
 import { NewExperienceComponent } from './Components/experience/new-experience.component';
+import { NewEducationComponent } from './Components/education/new-education.components';
+import { EditEducationComponent } from './Components/education/edit-education.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { NewExperienceComponent } from './Components/experience/new-experience.c
     ProjectsComponent,
     LoginComponent,
     EditExperienceComponent,
-    NewExperienceComponent
+    NewExperienceComponent,
+    NewEducationComponent,
+    EditEducationComponent,
   ],
   imports: [
     BrowserModule,
